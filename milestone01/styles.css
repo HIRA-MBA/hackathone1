@@ -1,0 +1,57 @@
+.container{background-color: rgb(241, 239, 237);
+    border: solid 2px black;
+    width: 1000px;
+    height:1000px;
+    display: flex;
+        margin: 0 auto;
+
+}
+
+
+#rigthSide{
+    width:660px;
+    height: 900px;   
+    background-color: rgb(238, 241, 241);
+    padding: 5px;
+}
+#leftside{
+background-color: rgb(231, 231, 185);
+width:300px;
+height: 975px;
+padding: 10px 10px;
+
+}
+
+#pic{
+    border: 2px solid black;
+    height: 300px;
+    width: 270px;
+    padding: 10px;
+   
+    
+     
+}
+
+#table{
+border-collapse: collapse ;
+width: 100%;
+
+}
+#table th{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+#table td{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+#table tr{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+
+
