@@ -1,0 +1,139 @@
+
+    /* General Styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    form {
+        background-color: white;
+        padding: 20px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 600px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    input[type="text"], input[type="number"], input[type="email"], input[type="tel"], select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin-top: 15px;
+    }
+
+    button[type="submit"], #download-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    button[type="submit"]:hover, #download-btn:hover {
+        background-color: #218838;
+    }
+
+    /* Styling for Resume Display */
+    #resume-display {
+        background-color: white;
+        padding: 20px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 600px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    #resume-display p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    #resume-display strong {
+        color: #333;
+    }
+
+    /* Shareable Link Section */
+    #shareable-link {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    #shareable-link a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    #shareable-link a:hover {
+        text-decoration: underline;
+    }
+
+    /* Button for Copying the Link */
+    #copy-link-btn {
+        background-color: #007bff;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    #copy-link-btn:hover {
+        background-color: #0056b3;
+    }
+    .resume-container {
+        font-family: Arial, sans-serif;
+            padding: 20px;
+        border: 1px solid #ddd;
+        margin-top: 20px;
+    }
+
+    legend{font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;}
+    
+    .resume-container h1 {
+        font-size: x-large;
+        text-decoration: underline;
+        color: black;
+        font-size: 28px;
+    }
+    
+    .resume-container h2 {
+        color: rgb(11, 12, 11);
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    
+    .resume-container p {
+        font-size: 15px;
+        color: #111111;
+        font-weight: lighter;
+    }

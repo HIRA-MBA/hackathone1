@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-gen {
+    max-width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c2c7f1;
+    border: 2px solid black
+   
+}
+legend{font-weight: bold;text-decoration: underline;}
+
+p{
+    font-weight: 800;
+        
+}
+
+
+#btn{
+    text-align: center;
+    padding-right: 40px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.resume-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.resume-container h1 {
+    font-size: x-large;
+    text-decoration: underline;
+    color: black;
+    font-size: 28px;
+}
+
+.resume-container h2 {
+    color: rgb(11, 12, 11);
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.resume-container p {
+    font-size: 15px;
+    color: #111111;
+    font-weight: lighter;
+}

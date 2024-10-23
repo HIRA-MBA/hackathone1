@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Creator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="resume-gen">
+        <h1>Resume Generator</h1>
+        <form id="resume-form">
+        <fieldset> 
+                <legend>Personel Information</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <br/>
+            <br/>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" placeholder="Enter your age"required>
+            <br/>
+            <br/>
+            <label for="status">Marital Status:</label>
+            <input type="text" id="status" name="status" required>
+        </fieldset>
+        <br/>
+        
+        <fieldset> 
+            <br/>
+            <legend>Gender</legend>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="male" checked>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female" required>
+            
+        </fieldset>
+        <br/>
+        <fieldset>
+            <br/>
+            <legend>Highest Education</legend>
+            <select name="education" required>
+                <option>Matric</option>
+                <option>Inter</option>
+                <option>Graduation</option>
+                <option selected>Masters</option>
+            </select>
+        </fieldset>
+
+            <br/>
+        <fieldset>
+            <legend>Experience</legend>
+            
+            <textarea id="experience" cols="30" rows="3"></textarea>
+        </fieldset>
+
+            <br/>
+        <fieldset> 
+            <legend>Skills</legend>
+            <label for="office">MS Office</label>
+            <input type="checkbox" id="office" name="skills" value="MS Office">
+          
+            <br/>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+         
+            <br/>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="CSS" name="skills" value="CSS">
+            
+            <br/>
+            <label for="JS">JavaScript</label>
+            <input type="checkbox" id="JS" name="skills" value="JavaScript">
+           
+        </fieldset>
+
+            <br/>
+        <fieldset> 
+            <legend>Contact</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br/>
+            <br/>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" required>
+        </fieldset>
+
+            <br>
+            <button id="btn">Generate CV</button>
+        </form>
+
+       
+        <div id="resume-display"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
